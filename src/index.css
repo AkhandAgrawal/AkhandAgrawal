@@ -1,13 +1,112 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: black;  
+}
+
+h1,h4,p,a{
+  color: #fff;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+} 
+.btn-light{
+  background: transparent;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* .btn-light{
+  background: transparent;
+  color: #fff;
+}  */
+
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-light:hover{
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  padding: 10px;
+  background-color: #f1c40f;
+  color: white;
+  margin: 0;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f1c40f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
