@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AkhandAgrawal/static/css/main.3fba60f9.css",
+    "main.js": "/AkhandAgrawal/static/js/main.4ece186c.js",
+    "static/media/project5.jpg": "/AkhandAgrawal/static/media/project5.509312e6af224438ad7c.jpg",
+    "static/media/project7.jpg": "/AkhandAgrawal/static/media/project7.9c289b5d64a4511842ab.jpg",
+    "static/media/project4.jpg": "/AkhandAgrawal/static/media/project4.72106d2a5edd2351e75c.jpg",
+    "static/media/project1.jpg": "/AkhandAgrawal/static/media/project1.d3fbaf94f4c67c453db3.jpg",
+    "static/media/project6.jpg": "/AkhandAgrawal/static/media/project6.7398fb14db9ddbcf2333.jpg",
+    "static/media/project2.jpg": "/AkhandAgrawal/static/media/project2.63eead1e43fc6348a52d.jpg",
+    "static/media/project3.jpg": "/AkhandAgrawal/static/media/project3.96581d5c506e719c65d0.jpg",
+    "index.html": "/AkhandAgrawal/index.html",
+    "main.3fba60f9.css.map": "/AkhandAgrawal/static/css/main.3fba60f9.css.map",
+    "main.4ece186c.js.map": "/AkhandAgrawal/static/js/main.4ece186c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fba60f9.css",
+    "static/js/main.4ece186c.js"
+  ]
+}
